@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: sans-serif !important;
+    background-color: black;
+}
+
+nav {
+    display: flex !important;
+}
+
+.list {
+    display: flex;
+    /* flex-direction: row !important; */
+}
+
+.logo .c {
+    color: goldenrod !important;
+    font-size: 20px;
+}
+
+.logo .yrus {
+    color: #fff !important;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none !important;
+}
+
+.list ul li {
+    display: flex;
+    flex-direction: row;
+}
+
+.image img {
+    width: 250px;
+    height: 300px;
+    /* border-radius: 50%;
+    border-radius: 53% 47% 60% 40% / 61% 61% 39% 39%;
+    border: 2px solid #fff;
+    background-color: goldenrod; */
+}
