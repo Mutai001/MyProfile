@@ -1,71 +1,167 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font: sans-serif !important;
-    background-color: black;
-    max-width: 80%;
-}
-
-nav {
-    display: flex !important;
-}
-
-nav .list ul {
-    display: flex;
-    flex-direction: row !important;
-    align-items: right;
-    /* margin: 20px 0 0 0; */
-    padding: 30px;
-    /* margin-right: 0; */
-}
-
-nav .list ul li {
-    padding-left: 15px;
-}
-
-.logo .c {
-    color: goldenrod !important;
-    font-size: 20px;
-}
-
-.logo .yrus {
-    color: #fff !important;
-    font-size: 20px;
-}
-
-
-/* 
-.intobtn {
-    color: #fff;
-    margin-right: 0;
-} */
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none !important;
-}
-
-.list {
-    /* display: flex;
-    flex-direction: row; */
-    margin-right: 0px;
-    padding-right: 0;
-}
-
-.image img {
-    width: 250px;
-    height: 300px;
-    /* border-radius: 50%;
-    border-radius: 53% 47% 60% 40% / 61% 61% 39% 39%;
-    border: 2px solid #fff;
-    background-color: goldenrod; */
-}
-
-.image img svg {
-    width: 250px;
-    height: 300px;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* width: 80%; */
+        /* height: 80%; */
+    }
+    
+    body {
+        background: #000000;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        margin: 1.2rem 2.5rem;
+        font: #fff;
+        border: 2px solid #fff;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+    
+    nav {
+        display: flex;
+        align-content: space-between;
+        /* border: #fff solid 2px; */
+        padding: 1rem 2rem;
+    }
+    
+    .logo {
+        font-size: 40px;
+        /* border: 1px solid lightgreen; */
+    }
+    
+    .logo .c {
+        color: goldenrod;
+    }
+    
+    .logo .yrus {
+        color: #fff;
+    }
+    
+    .list ul {
+        display: flex;
+        margin-bottom: 0px;
+    }
+    
+    .list ul li {
+        list-style: none;
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+    
+    .list ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    .list ul li a:hover {
+        color: #fff;
+        border-radius: 12px;
+        background-color: goldenrod;
+        padding: 10px;
+    }
+    
+    .intobtn {
+        font: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-left: 30px;
+        /* background-size: auto; */
+    }
+    
+    .intobtn button:hover {
+        color: goldenrod;
+    }
+    
+    .intobtn button {
+        color: #fff;
+        border-radius: 40%;
+        padding: 14px;
+        border: none;
+        background-color: #454545;
+    }
+    
+    .image img {
+        width: 200px;
+        height: 200px;
+        border-radius: 52% 48% 56% 44% / 71% 76% 24% 29%;
+        border: 2px solid #fff;
+        background-color: goldenrod;
+        background-attachment: url(.assets/profile);
+    }
+    
+    .main-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: row;
+        padding: 10px;
+        /* border: 2px solid #c6baba; */
+    }
+    
+    .about {
+        margin-top: 10rem;
+        /* border: 1px solid #c6baba; */
+        width: 50%;
+    }
+    
+    .about .occupation {
+        color: #fff;
+        border-radius: 12px;
+        background-color: #454545;
+        padding: 11px;
+        border: none;
+    }
+    
+    .about h1 {
+        color: #fff;
+        font-size: 64px;
+    }
+    
+    .about p {
+        color: #fff;
+        /* font-size: 64px; */
+        padding: 10px;
+    }
+    
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+    }
+    
+    .buttons .cv {
+        background-color: goldenrod;
+        color: #fff;
+        border-radius: 12px;
+        border: none;
+    }
+    
+    .buttons .hire {
+        background-color: #454545;
+        color: #fff;
+        border-radius: 12px;
+        margin-left: 30px;
+        border: none;
+    }
+    
+    .social-media {
+        display: flex;
+        margin: 1rem 1rem;
+        color: #fff;
+    }
+    
+    .social-media a {
+        color: #fff;
+        padding: 8px;
+        margin: 1px;
+    }
+    
+    social-media p {
+        padding: 8px;
+        font-size: 16px;
+    }
