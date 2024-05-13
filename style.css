@@ -7,15 +7,24 @@
 body {
     font: sans-serif !important;
     background-color: black;
+    max-width: 80%;
 }
 
 nav {
     display: flex !important;
 }
 
-.list {
+nav .list ul {
     display: flex;
-    /* flex-direction: row !important; */
+    flex-direction: row !important;
+    align-items: right;
+    /* margin: 20px 0 0 0; */
+    padding: 30px;
+    /* margin-right: 0; */
+}
+
+nav .list ul li {
+    padding-left: 15px;
 }
 
 .logo .c {
@@ -28,14 +37,23 @@ nav {
     font-size: 20px;
 }
 
+
+/* 
+.intobtn {
+    color: #fff;
+    margin-right: 0;
+} */
+
 nav ul li a {
     color: #fff;
     text-decoration: none !important;
 }
 
-.list ul li {
-    display: flex;
-    flex-direction: row;
+.list {
+    /* display: flex;
+    flex-direction: row; */
+    margin-right: 0px;
+    padding-right: 0;
 }
 
 .image img {
@@ -45,4 +63,9 @@ nav ul li a {
     border-radius: 53% 47% 60% 40% / 61% 61% 39% 39%;
     border: 2px solid #fff;
     background-color: goldenrod; */
+}
+
+.image img svg {
+    width: 250px;
+    height: 300px;
 }
