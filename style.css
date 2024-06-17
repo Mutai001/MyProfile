@@ -82,6 +82,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
+    height: 100%;
 }
 
 .top-wrap {
@@ -94,7 +95,7 @@ nav {
     flex: 1;
     padding: 20px;
     border-radius: 12px;
-    /* background-color: rgb(186, 190, 193); */
+    background-color: rgb(230, 234, 236);
     width: 50%;
     /* border: 2px solid rebeccapurple; */
 }
@@ -104,8 +105,41 @@ nav {
     margin-bottom: 20px;
 }
 
+.about-2 {
+    margin: 70px 50px 20px 50px;
+    background-color: rgb(186, 190, 193);
+    border-radius: 12px;
+    padding: 2em;
+    height: 100%;
+}
+
+.about-2 h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-2 .skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-2 .skills h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-2 .skills h3 ul li {
+    display: flex;
+    flex-direction: column;
+}
+
 .description {
     margin-bottom: 20px;
+    background-color: rgb(236, 240, 243);
+    padding: 20px;
+    border-radius: 12px;
 }
 
 .description p {
