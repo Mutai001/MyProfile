@@ -87,6 +87,7 @@ nav {
 
 .top-wrap {
     display: flex;
+    align-items: space-between;
     margin: 0 50px 10px 50px;
     border-radius: 12px;
 }
@@ -120,19 +121,48 @@ nav {
     margin-bottom: 20px;
 }
 
-.about-2 .skills {
+.skills {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+    border-radius: 12px;
+    /* border: 2px solid rgb(64, 24, 100); */
 }
 
-.about-2 .skills h3 {
+.skills b {
+    color: rgb(15, 201, 37);
+}
+
+.techincalskills {
+    padding: 20px;
+    width: 50%;
+}
+
+.techincalskills h3 {
+    color: rgb(201, 149, 15);
+}
+
+.techincalskills ul li {
+    list-style: none;
+}
+
+.softskills h3 {
+    color: rgb(201, 149, 15);
+    width: 50% auto;
+}
+
+.softskills ul li {
+    list-style: none;
+}
+
+.softskills {
+    padding: 20px;
+    margin-right: 0;
+}
+
+.skills h3 {
     font-size: 24px;
     margin-bottom: 10px;
-}
-
-.about-2 .skills h3 ul li {
-    display: flex;
-    flex-direction: column;
 }
 
 .description {
