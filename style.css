@@ -238,21 +238,50 @@ nav {
 
 /* Service Section */
 
-.service {
+.services {
     background-color: aliceblue;
     padding: 50px 0;
     color: #000000;
     text-align: center;
-    border: #a19c9c solid 1px;
+    /* border: #a19c9c solid 1px; */
 }
 
-.service h2 {
+.services h2 {
     font-size: 36px;
     margin-bottom: 30px;
 }
 
+.service-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.service-item:hover {
+    background-color: rgb(63, 79, 91);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 .service-item {
-    margin-bottom: 30px;
+    margin: 20px;
+    width: 30%;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgb(80, 106, 120);
+}
+
+.service-item h3 {
+    color: goldenrod;
+}
+
+.service-item ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.service-item ul li b {
+    color: rgb(15, 201, 37);
 }
 
 .service-item h3 {
@@ -261,34 +290,59 @@ nav {
 }
 
 
-/* Portfolio Section */
+/* projects Section */
 
-.portfolio {
+.projects {
     background-color: aliceblue;
     padding: 50px 0;
     color: #000000;
     text-align: center;
-    border: #a19c9c solid 1px;
+    /* border: #a19c9c solid 1px; */
 }
 
-.portfolio h2 {
+.projects h2 {
     font-size: 36px;
     margin-bottom: 30px;
 }
 
-.portfolio-items {
+.projects-items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 0 20px 0 20px;
+    text-align: center;
+    background-color: rgb(57, 81, 95);
+    border-radius: 12px;
 }
 
-.portfolio-item {
+.projects-item {
+    text-align: center;
+    margin-right: 30px;
+    color: #ffffff;
+}
+
+.projects-item p {
+    /* background-color: rgb(80, 106, 120); */
+    margin-left: 30px;
+    margin-top: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.projects-items b {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(15, 201, 37);
+}
+
+.projects-item {
     margin: 20px;
     width: 300px;
 }
 
-.portfolio-item img {
-    width: 100%;
+.projects-item img {
+    width: 130%;
     border-radius: 10px;
     margin-bottom: 10px;
 }
