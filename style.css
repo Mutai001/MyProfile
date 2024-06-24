@@ -605,6 +605,9 @@ footer p {
     .softskills {
         width: 100%;
     }
+    .service-items {
+        flex-direction: column;
+    }
     .service-item {
         width: 100%;
     }
