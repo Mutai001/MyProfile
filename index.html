@@ -25,17 +25,17 @@
         <div class="list">
             <ul>
                 <li><a href="#" id="home">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">projects</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacts">Contacts</a></li>
             </ul>
         </div>
     </nav>
     <section class="main-section">
         <div class="top-wrap">
-            <section class="about">
+            <section class="about" id="home">
                 <h1>Cyrus Kimutai</h1>
                 <div class="description">
                     <h3>I am a full stack software developer based in Nairobi Kenya.</h3>
@@ -57,7 +57,7 @@
         </div>
 
     </section>
-    <section class="about-2">
+    <section class="about-2" id="about">
         <h2>About Me:</h2>
         <p>
             With a deep understanding of modern web technologies, I bring a comprehensive approach to full-stack development. I specialize in crafting seamless user experiences and robust server-side logic, ensuring that every project I undertake meets the highest
@@ -87,7 +87,7 @@
         </div>
 
     </section>
-    <section class="services">
+    <section class="services" id="services">
         <h2>My Services</h2>
         <div class="service-items">
             <div class="service-item">
@@ -111,7 +111,7 @@
                 <p>Need expert advice on your software development project? I provide consulting services to help you navigate the complexities of web development, offering insights and recommendations to ensure the success of your project.</p>
             </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
         <h2>Completed Projects.</h2>
         <div class="projects-items">
             <div class="projects-item">
@@ -136,32 +136,42 @@
         </div>
     </section>
 
-    <section class="blog">
-        <div class="nog-content">
+    <section class="blog" id="blog">
+        <div class="blog-content">
             <h2>My Blog</h2>
             <p>Stay tuned for my latest blog posts where I share insights, tutorials, and updates on the latest trends in full-stack development and software engineering.</p>
         </div>
-        <!-- Add your blog posts here -->
+        <div class="blog-form">
+            <h3>Create a New Blog Post</h3>
+            <form id="blogForm">
+                <input type="text" id="title" placeholder="Title" required>
+                <textarea id="content" placeholder="Write your blog post here..." required></textarea>
+                <button type="submit">Post</button>
+            </form>
+        </div>
+        <div class="blog-posts" id="blogPosts">
+            <!-- Blog posts will appear here -->
+        </div>
     </section>
 
-    <section class="contacts">
+
+    <section class="contacts" id="contacts">
         <h2>Contact Me</h2>
         <div class="social-media">
             <p>Feel free to reach out to me through the following channels:</p>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#mailto:kimtaicyrus@gmail.com"><i class="fa-regular fa-envelope"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-            <a href="#"><i class="fab fa-dribbble"></i></a>
-            <a href="#"><i class="fab fa-behance"></i></a>
-            <a href="#"><i class="fab fa-codepen"></i></a>
+            <p>Feel free to reach out to me through the following channels:</p>
+            <a href="https://www.facebook.com/profile.php?id=100089002852823"><i class="fab fa-facebook-f"></i></a>
+            <a href="mailto:kimtaicyrus@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+            <a href="https://x.com/cyrus_Kim001"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/studyhelpgurus/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/cyrus-kimutai-974012313/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/Mutai001"><i class="fab fa-github"></i></a>
+            <a href="http://www.youtube.com/@user-cc6iv9fx1j"><i class="fab fa-youtube"></i></a>
         </div>
         <!-- You can add a contact form here if you have one -->
     </section>
+
+    <script src="index.js"></script>
 </body>
 
 <footer>
